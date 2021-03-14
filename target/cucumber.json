@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-14T12:04:04.478Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2155637700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.parabank.steps.Steps.setup() in file:/E:/Selenium/class-%20technogeeks/projects/Cucumber-Course/target/test-classes/"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality;login-successful;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1165662700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.parabank.steps.Steps.teardown() in file:/E:/Selenium/class-%20technogeeks/projects/Cucumber-Course/target/test-classes/"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15940503300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am in the login page of the ParaBank",
+            "match": {
+              "location": "com.parabank.steps.Steps.i_am_in_the_login_page_of_the_ParaBank() in file:/E:/Selenium/class-%20technogeeks/projects/Cucumber-Course/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8662314700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter valid \"chetan\" and \"chetan\" with \"chetan pawar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chetan\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"chetan\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"chetan pawar\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.parabank.steps.Steps.i_enter_valid_credential(String,String,String) in file:/E:/Selenium/class-%20technogeeks/projects/Cucumber-Course/target/test-classes/"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3825113200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be navigate  to the overview page",
+            "match": {
+              "location": "com.parabank.steps.Steps.i_should_be_navigate_to_the_overview_page() in file:/E:/Selenium/class-%20technogeeks/projects/Cucumber-Course/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "   In order to do internet banking\n   As a valid bank customer\n   I want to login successfully",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login.feature",
+    "tags": []
+  }
+]
