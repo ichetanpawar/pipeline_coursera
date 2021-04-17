@@ -12,7 +12,7 @@ public class Accounts extends Common {
 
 	
 	public static void fnLandingPage() throws InterruptedException, ParseException, IOException {
-		String os = "ubuntu";
+	String os = "ubuntu";
 
 		if (os.equalsIgnoreCase("windows")) {
 			System.setProperty("webdriver.chrome.driver", "./lib/chromedriver.exe");
@@ -20,7 +20,7 @@ public class Accounts extends Common {
 		} else if (os.equalsIgnoreCase("ubuntu")) {
 			System.setProperty("webdriver.chrome.driver", "./lib/chromedriver_linux");
 			ChromeOptions chrome_options = new ChromeOptions();
-			chrome_options.addArguments("no-sandbox");
+			chrome_options.addArguments("--no-sandbox");
 			driver = new ChromeDriver(chrome_options);
 		}
 
@@ -30,7 +30,6 @@ public class Accounts extends Common {
 		Thread.sleep(5000);
 		fnTakeScreenshot("Landing page");
 		fnWriteLogs("Url accessed. url is https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC");
-
 	}
 
 	public static void fnEnterUsernamePassword() throws ParseException, IOException {
