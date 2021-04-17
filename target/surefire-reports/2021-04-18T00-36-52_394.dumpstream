@@ -1,0 +1,4 @@
+# Created at 2021-04-18T00:36:52.650
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Automation\dev\pipeline_coursera\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

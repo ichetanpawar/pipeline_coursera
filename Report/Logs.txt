@@ -1,0 +1,5 @@
+[ 2021-Apr-17 19:07:10 ]  Url accessed. url is https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+[ 2021-Apr-17 19:07:10 ]  Username entered
+[ 2021-Apr-17 19:07:10 ]  Password entered
+[ 2021-Apr-17 19:07:14 ]  Clicked on Log in button
+[ 2021-Apr-17 19:07:18 ]  Accounts overview header is displayed. user successfully lands on home page.
