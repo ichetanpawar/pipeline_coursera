@@ -13,18 +13,8 @@ public class Accounts extends Common {
 
 	
 	public static void fnLandingPage() throws InterruptedException, ParseException, IOException {
-	String os = "ubuntu";
-
-		if (os.equalsIgnoreCase("windows")) {
 			System.setProperty("webdriver.chrome.driver", "./lib/chromedriver.exe");
 			driver = new ChromeDriver();
-		} else if (os.equalsIgnoreCase("ubuntu")) {
-			//System.setProperty("webdriver.chrome.driver", "./lib/chromedriver_linux");
-			ChromeOptions chrome_options = new ChromeOptions();
-			//chrome_options.addArguments("--no-sandbox");
-			driver = new RemoteWebDriver(new URL("http://localhost:8080/"), chrome_options);
-			//driver = new ChromeDriver(chrome_options);
-		}
 
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
