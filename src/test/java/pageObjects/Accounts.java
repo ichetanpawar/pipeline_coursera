@@ -19,7 +19,7 @@ public class Accounts extends Common {
 			System.setProperty("webdriver.chrome.driver", "./lib/chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (os.equalsIgnoreCase("ubuntu")) {
-			System.setProperty("webdriver.chrome.driver", "/lib/chromedriver_linux");
+			System.setProperty("webdriver.chrome.driver", "./lib/chromedriver_linux");
 			ChromeOptions chrome_options = new ChromeOptions();
 			chrome_options.addArguments("--no-sandbox");
 			driver = new ChromeDriver(chrome_options);
