@@ -12,7 +12,14 @@ public class Accounts extends Common {
 
 	
 	public static void fnLandingPage() throws InterruptedException, ParseException, IOException {
+		String os= "ubuntu";
+		
+		if(os.equalsIgnoreCase("windows")) {
 		System.setProperty("webdriver.chrome.driver","./lib/chromedriver.exe");
+		}
+		else if(os.equalsIgnoreCase("ubuntu")) {
+			System.setProperty("webdriver.chrome.driver","./lib/chromedriver_linux");
+		}
 		driver= new ChromeDriver(); 
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
