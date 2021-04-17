@@ -1,3 +1,4 @@
-E:\Selenium\class- technogeeks\projects\Cucumber-Course\src\test\java\com\parabank\base\BaseUtil.java
-E:\Selenium\class- technogeeks\projects\Cucumber-Course\src\test\java\com\parabank\runner\RunCucumberTest.java
-E:\Selenium\class- technogeeks\projects\Cucumber-Course\src\test\java\com\parabank\steps\Steps.java
+C:\Users\ichet\eclipse-workspace\testcucumber\src\test\java\stepDefinitions\AccountsStepDef.java
+C:\Users\ichet\eclipse-workspace\testcucumber\src\test\java\pageObjects\Accounts.java
+C:\Users\ichet\eclipse-workspace\testcucumber\src\test\java\pageObjects\Common.java
+C:\Users\ichet\eclipse-workspace\testcucumber\src\test\java\stepDefinitions\TestRunner.java
